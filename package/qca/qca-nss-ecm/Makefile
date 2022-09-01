@@ -4,10 +4,11 @@ include $(INCLUDE_DIR)/kernel.mk
 PKG_NAME:=qca-nss-ecm
 PKG_RELEASE:=1
 
-PKG_SOURCE_URL:=https://source.codeaurora.org/quic/qsdk/oss/lklm/qca-nss-ecm
+PKG_SOURCE_URL:=https://git.codelinaro.org/clo/qsdk/oss/lklm/qca-nss-ecm.git
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=9228212b4238c0d8c296f795948ede8f2ca0242e
-PKG_MIRROR_HASH:=02fe4c86c8c88fb15704b1b253ab756a2658f24ce5db64a7909cb60bf9c1cdff
+PKG_SOURCE_DATE:=2022-06-15
+PKG_SOURCE_VERSION:=a4854db8d70ed0367556d817faa45e43b533a164
+PKG_MIRROR_HASH:=7661c6c3b137c127b9ec96aec3a05433d341c3a1db231e812d10380216b87858
 
 LOCAL_VARIANT=$(patsubst qca-nss-ecm-%,%,$(patsubst qca-nss-ecm-%,%,$(BUILD_VARIANT)))
 include $(INCLUDE_DIR)/package.mk
