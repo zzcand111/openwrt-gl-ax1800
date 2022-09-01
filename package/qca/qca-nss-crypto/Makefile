@@ -4,10 +4,11 @@ include $(INCLUDE_DIR)/kernel.mk
 PKG_NAME:=qca-nss-crypto
 PKG_RELEASE:=1
 
-PKG_SOURCE_URL:=https://source.codeaurora.org/quic/qsdk/oss/lklm/nss-crypto
+PKG_SOURCE_URL:=https://git.codelinaro.org/clo/qsdk/oss/lklm/nss-crypto.git
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=e7651c2986d30b5e8ca5ad6b9a72c47febdf3cca
-PKG_MIRROR_HASH:=381ba448ccd9e0ff69fa52b3e10687b72260b7d0bf865cac10be7f159573b6c8
+PKG_SOURCE_DATE:=2021-03-20
+PKG_SOURCE_VERSION:=2271a3a66f7e8284d42a9e787ddec6f24a1d2e15
+PKG_MIRROR_HASH:=afd2b746779bf9abb72dfb58c755acf54d1cb51085b879013dd0edf9ba98d3c9
 
 include $(INCLUDE_DIR)/package.mk
 
