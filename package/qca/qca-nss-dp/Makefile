@@ -3,11 +3,11 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=qca-nss-dp
 PKG_RELEASE:=$(AUTORELEASE)
 
-PKG_SOURCE_URL:=https://source.codeaurora.org/quic/cc-qrdk/oss/lklm/nss-dp
+PKG_SOURCE_URL:=https://git.codelinaro.org/clo/qsdk/oss/lklm/nss-dp.git
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_DATE:=2021-03-26
-PKG_SOURCE_VERSION:=e0c89348d5ad99559ce2fbe15d37b3b5bc66aa03
-PKG_MIRROR_HASH:=f369f0c3b33b5f4ad6d0a6ad6ac5495f63c9ecaf94e4e7fa345169f3e44fcf45
+PKG_SOURCE_DATE:=2022-06-15
+PKG_SOURCE_VERSION:=1465dd2aa5f5d9bd36d5b6cd24afed7b6e904bda
+PKG_MIRROR_HASH:=f483a93ca5c05b6ab16d55bd7d130a83964d76fff150f1edfd7d2a5ac2bb48d4
 
 PKG_BUILD_PARALLEL:=1
 
